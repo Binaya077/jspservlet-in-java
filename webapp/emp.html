@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<style>
+
+#name,#address,#age{
+   
+   float:right;
+   width:40%;
+   margin-right:30%;
+   
+   
+}
+
+#reset
+{
+
+  width:30%;
+   height:30px;
+
+}
+#submit
+{
+   float:right;
+    margin-right:30%;
+    width:30%;
+    height:30px;
+    
+}
+
+
+div
+{
+
+  border: 1px solid black;
+  border-radius:10px;
+  background-color:pink;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  height:250px; 
+  width:30%;
+  margin:auto;
+   
+}
+
+</style>
+
+<title>Form</title>
+</head>
+<body>
+<div>
+<form action="Empservlet" method="post">
+<h1 style="color:green"><i>EMPLOYEE FORM</i></h1>
+
+<label><b>NAME</b></label>
+<input type="text" id="name" name=username><br><br>
+
+<label><b>ADDRESS</b></label>
+<input type="text" id="address" name=address><br><br>
+
+<label><b>AGE</b></label>
+<input type="number" id="age" name=age><br><br>
+
+<label><b>GENDER</b></label>
+<input type="radio" name="gender" value="Male">
+<label>Male</label>
+<input type="radio" name="gender" value="Female">
+<label>Female</label><br><br><br>
+<input type="reset" id="reset" value="Reset">
+<input type="submit" id="submit" value="submit">
+
+
+
+</form>
+</div>
+</body>
+</html>
